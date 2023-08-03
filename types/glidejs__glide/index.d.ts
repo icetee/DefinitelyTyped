@@ -155,7 +155,7 @@ interface Options {
 type Handler = () => void;
 
 declare class Glide {
-    readonly selector: string;
+    readonly selector: string | HTMLElement;
 
     /**
      * Construct glide.
